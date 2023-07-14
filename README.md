@@ -17,9 +17,10 @@ DLL Injector implementation in Python
 
 Taken from Grey Hat Python
 
-Usage: dll_inject.py <PID> <Path To DLL>
+Usage: dll_inject.py \[-p pid|-f exe_path\] dll_path
 
-Eg: dll_inject.py 1111 C:\test\messagebox.dll
+Eg: dll_inject.py -p 1111 C:\test\messagebox.dll
+    dll_inject.py -f Path_To_Exe C:\test\messagebox.dll
 
 
 
